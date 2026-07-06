@@ -1,0 +1,631 @@
+/* ===========================
+RESET
+=========================== */
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+/* ===========================
+BODY
+=========================== */
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#EEF2F7;
+
+    min-height:100vh;
+
+}
+
+/* ===========================
+CONTENEDOR
+=========================== */
+
+.container{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+    padding:20px;
+
+}
+
+/* ===========================
+TARJETA LOGIN
+=========================== */
+
+.login{
+
+    width:100%;
+
+    max-width:420px;
+
+}
+
+/* ===========================
+   LOGIN
+=========================== */
+
+.login-card{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:12px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+}
+
+.login-card h1{
+
+    text-align:center;
+
+    color:#1E3A8A;
+
+    margin-bottom:10px;
+
+}
+
+.login-card p{
+
+    text-align:center;
+
+    margin-bottom:25px;
+
+    color:#666;
+
+}
+
+form{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+label{
+
+    margin-top:15px;
+
+    margin-bottom:5px;
+
+    font-weight:bold;
+
+}
+
+input{
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+}
+
+button{
+
+    margin-top:25px;
+
+    padding:12px;
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+button:hover{
+
+    background:#1D4ED8;
+
+}
+
+.register{
+
+    margin-top:20px;
+
+    text-align:center;
+
+}
+
+.register a{
+
+    text-decoration:none;
+
+    color:#2563EB;
+
+    font-weight:bold;
+
+}
+
+select{
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    background:white;
+
+}
+
+/*==================================
+DASHBOARD
+==================================*/
+
+body{
+
+display:flex;
+
+background:#EEF2F7;
+
+}
+
+.sidebar{
+
+width:240px;
+
+min-height:100vh;
+
+background:#1E3A8A;
+
+padding:25px;
+
+position:fixed;
+
+left:0;
+
+top:0;
+
+}
+
+.sidebar h2{
+
+color:white;
+
+margin-bottom:40px;
+
+text-align:center;
+
+}
+
+.sidebar nav{
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.sidebar a{
+
+text-decoration:none;
+
+color:white;
+
+padding:12px;
+
+border-radius:8px;
+
+transition:.3s;
+
+}
+
+.sidebar a:hover{
+
+background:#2563EB;
+
+}
+
+.dashboard{
+
+margin-left:240px;
+
+padding:40px;
+
+width:100%;
+
+}
+
+.dashboard-header{
+
+margin-bottom:40px;
+
+}
+
+.dashboard-header h1{
+
+color:#1E3A8A;
+
+margin-bottom:10px;
+
+}
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:20px;
+
+}
+
+.card{
+
+background:white;
+
+padding:25px;
+
+border-radius:12px;
+
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+transition:.3s;
+
+cursor:pointer;
+
+}
+
+.card:hover{
+
+transform:translateY(-5px);
+
+}
+
+.card h2{
+
+margin-bottom:15px;
+
+color:#2563EB;
+
+}
+
+.inventory{
+
+background:white;
+
+padding:30px;
+
+border-radius:12px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+.inventory h2{
+
+margin-bottom:20px;
+
+color:#1E3A8A;
+
+}
+
+.inventory hr{
+
+margin:40px 0;
+
+}
+
+.product-card{
+
+background:#F8FAFC;
+
+padding:20px;
+
+margin-top:15px;
+
+border-left:5px solid #2563EB;
+
+border-radius:8px;
+
+}
+
+/*====================================
+INVENTARIO
+====================================*/
+
+.inventory{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+.inventory h2{
+
+    color:#1E3A8A;
+
+    margin-bottom:20px;
+
+}
+
+.inventory hr{
+
+    margin:35px 0;
+
+}
+
+.search-box{
+
+    margin-bottom:20px;
+
+}
+
+.search-box input{
+
+    width:100%;
+
+}
+
+.product-card{
+
+    background:#F8FAFC;
+
+    border-left:5px solid #2563EB;
+
+    padding:20px;
+
+    border-radius:8px;
+
+    margin-bottom:15px;
+
+}
+
+.product-card h3{
+
+    color:#1E3A8A;
+
+    margin-bottom:10px;
+
+}
+
+/*======================================
+SIDEBAR
+======================================*/
+
+.sidebar{
+
+position:fixed;
+
+left:0;
+
+top:0;
+
+width:240px;
+
+height:100vh;
+
+background:#1E3A8A;
+
+padding:30px;
+
+}
+
+.sidebar h2{
+
+color:white;
+
+margin-bottom:40px;
+
+text-align:center;
+
+}
+
+.sidebar nav{
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.sidebar a{
+
+color:white;
+
+text-decoration:none;
+
+padding:12px;
+
+border-radius:8px;
+
+transition:.3s;
+
+}
+
+.sidebar a:hover{
+
+background:#2563EB;
+
+}
+
+/*======================================
+DASHBOARD
+======================================*/
+
+.dashboard{
+
+margin-left:260px;
+
+padding:30px;
+
+}
+
+.dashboard-header{
+
+margin-bottom:40px;
+
+}
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:20px;
+
+}
+
+.card{
+
+background:white;
+
+padding:30px;
+
+border-radius:12px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+text-align:center;
+
+}
+
+.card h3{
+
+color:#666;
+
+margin-bottom:10px;
+
+}
+
+.card h2{
+
+font-size:40px;
+
+color:#1E3A8A;
+
+}
+
+.inventory-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+    background:white;
+
+}
+
+.inventory-table th{
+
+    background:#1E3A8A;
+
+    color:white;
+
+    padding:15px;
+
+}
+
+.inventory-table td{
+
+    padding:15px;
+
+    border-bottom:1px solid #ddd;
+
+    text-align:center;
+
+}
+
+.inventory-table tr:hover{
+
+    background:#F8FAFC;
+
+}
+
+.edit-btn{
+
+    background:#FACC15;
+
+    border:none;
+
+    padding:8px 12px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    margin-right:5px;
+
+}
+
+.delete-btn{
+
+    background:#EF4444;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 12px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    margin-right:5px;
+
+}
+
+.stock-btn{
+
+    background:#22C55E;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 12px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+}
+
+.inventory-table button:hover{
+
+    opacity:.85;
+
+}

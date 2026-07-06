@@ -1,0 +1,1 @@
+export const URL_BASE = "https://stock-flow-48bf0-default-rtdb.firebaseio.com/";
